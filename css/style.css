@@ -1,0 +1,186 @@
+body{
+    background-color: rgb(128, 111, 89);
+}
+
+#board-game{
+    background-image: url(../img/Cobblestone.png);
+    background-color: burlywood;
+    width: 60%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 20%; 
+    background-color: rgba(0, 0, 0, 0.295);
+    height: 60px;
+   
+}
+td{
+    background-color: rgba(0, 0, 0, 0.295);
+    height: 60px;
+}
+
+td.Obstacle{
+    position: relative;
+    background-image: url(../img/dngn_trap_shaft.png);
+    background-repeat: no-repeat;
+}
+
+
+
+h1{
+    position: absolute;
+   margin-left: 45%; 
+}
+
+#j1{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 9%;
+}
+
+#j2{
+    position: absolute;
+    margin-left: 90%;
+    margin-top: 10%;
+}
+
+td.droite{
+    border-radius: 1000px;
+  
+}
+td.bas{
+    border-radius: 1000px;
+    
+}
+td.haut{
+    border-radius: 1000px;
+   
+}
+td.gauche{
+    border-radius: 1000px;
+   
+}
+td.droite2{
+    border-radius: 1000px;
+    
+}
+td.bas2{
+    border-radius: 1000px;
+   
+}
+td.haut2{
+    border-radius: 1000px;
+  
+}
+td.gauche2{
+    border-radius: 1000px;
+    
+}
+td.hache{
+    border-radius: 10px;
+    background-image: url(../img/hache2.png);
+    background-repeat: no-repeat;
+}
+td.lance{
+    border-radius: 10px;
+    background-image: url(../img/spear2.png);
+    background-repeat: no-repeat;
+}
+td.dague{
+    border-radius: 10px;
+    background-image: url(../img/dagger.png);
+    background-repeat: no-repeat;
+}
+td.masse{
+    border-radius: 10px;
+    background-image: url(../img/mace3.png);
+    background-repeat: no-repeat;
+}
+
+.brique1{
+    background-image: url(../img/brick_dark0.png);
+}
+
+.brique2{
+    background-image: url(../img/wood.jpg);
+}
+#newBoard-game{
+    background-image: url(../img/wood.jpg);
+    width: 60%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 22%;
+    height: 50%;
+   
+}
+td#colle-00, td#colle-10,td#colle-50 ,td#colle-01,td#colle-02,td#colle-03,td#colle-04,td#colle-04,
+td#colle-05,td#colle-55,
+td#colle-51,td#colle-52,td#colle-53,td#colle-54,td#colle-55{
+    background-image: url(../img/stone_brick4.png);
+}
+
+td#colle-11,td#colle-41,td#colle-44{
+    background-image: url(../img/flame.png);
+    background-repeat: no-repeat;
+    width: 80px;
+    padding: 0;
+}
+td#colle-04{
+    background-image: url(../img/dngn_return_hell.png);
+}
+
+td#colle-20,td#colle-30,td#colle-40,td#colle-25,td#colle-35,td#colle-45,td#colle-15,td#colle-10{
+    background-image: url(../img/stone_brick4.png);
+    width: 20px;
+}
+
+td#colle-22{
+   background-image: url(../img/barbarianT.png);
+    background-repeat: no-repeat;
+    width: 60px;
+}
+
+td#colle-32{
+    background-image: url(../img/goblinsword.png);
+    background-repeat: no-repeat;
+    height: 70px;
+}
+
+td#colle-21,td#colle-31{
+    width: 360px;
+}
+
+#gameOverJ1,#gameOverJ2{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 20%;
+    height: 60px;
+    font-size: 90px;
+    height: 50%;
+    color: rgba(90, 9, 9, 0.705);
+    background-image: url(../img/JWDLx5AZBtI.jpg);
+    background-repeat: no-repeat;
+    width: 66%;
+}
+
+#rejouer{
+    margin-top: 23%;
+    margin-left: 67%;
+    position: absolute;
+    color: rgba(90, 9, 9, 0.705);
+    background-color: grey;
+}
+
+#tour{
+    color: brown;
+    position: fixed;
+}
+td.perso {
+    background-image: url(../img/goblinsword1.png);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+td.perso2 {
+    background-image: url(../img/barbarianT.png);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
